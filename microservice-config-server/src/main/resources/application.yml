@@ -1,3 +1,5 @@
+name: yyf
+profile: default-1.0
 server:
   port: 8080
 spring:
@@ -7,9 +9,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yuanyifeng/yyf-sc-learning.git      # 配置Git仓库的地址
-          search-paths: microservice-config-server
-          username: yuanyifeng                                                         # Git仓库的账号
-          password: fengnuoyang1110                                                     # Git仓库的密码
-name: yyf
-profile: default-1.0
+          uri: http://git.oschina.net/itmuch/spring-cloud-config-repo     # 配置Git仓库的地址
+          username:                                                         # Git仓库的账号
+          password:                                                  # Git仓库的密码
