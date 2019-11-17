@@ -11,5 +11,5 @@ spring:
           search-paths: microservice-config-server
           username: yuanyifeng                                                         # Git仓库的账号
           password: fengnuoyang1110                                                     # Git仓库的密码
-name: yyf
-profile: default-1.0
+name: dev-yyf
+profile: dev-1.0
